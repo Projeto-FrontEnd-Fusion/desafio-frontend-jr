@@ -1,81 +1,95 @@
-# Desafio Frontend Junior - Card de Perfil
+# 🎯 Desafio Frontend Junior - Card de Perfil
 
-## Sobre o Desafio
+## 📋 Sobre o Desafio
+**Tipo:** Desenvolvimento Frontend  
+**Nível:** Junior  
+**Duração:** 5 dias  
+**XP Total:** 80 XP  
 
-Este desafio foi desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Frontend Junior**. Trata-se de um teste prático rápido que avalia habilidades fundamentais em desenvolvimento frontend.
-
-**Prazo de entrega:** 5 dias
-
-## 📐 Design Reference
-
-**Link do Figma:**  
-[https://www.figma.com/design/JO0vsAS75zlc0Vrx0tA5WZ/Untitled?node-id=0-1&t=8UDm9Y2PkOhwYS6a-1](https://www.figma.com/design/JO0vsAS75zlc0Vrx0tA5WZ/Untitled?node-id=0-1&t=8UDm9Y2PkOhwYS6a-1)
-
-Utilize o design do Figma como referência para implementar o card de perfil com fidelidade.
-
-## Descrição do Desafio
-
-### 1. Card de Perfil Simples
-
-**Objetivo:** Criar um componente de card de perfil que exibe informações básicas de um usuário com interatividade.
-
-**Funcionalidades requeridas:**
-- Exibição de foto, nome e cargo
-- Dois botões: "Seguir" e "Mensagem"
-- Interatividade no botão "Seguir":
-  - Ao clicar, o texto deve mudar para "Seguindo"
-  - A cor do botão deve ser alterada visualmente
-
-## Critérios de Avaliação
-
-### ✅ O que será testado:
-
-1. **Componentização básica**
-   - Criação de um componente `ProfileCard` bem estruturado
-
-2. **Gerenciamento de estado**
-   - Uso do `useState` para controlar o estado de "seguindo"
-
-3. **Estilização**
-   - Aplicação de estilos básicos usando Tailwind CSS
-   - Cores, espaçamento e efeitos hover adequados
-   - Fidelidade ao design do Figma
-
-4. **Boas práticas**
-   - Uso correto da diretiva `Image` do Next.js para otimização de imagens
-
-## Requisitos de Entrega
-
-### 📝 Commits
-- **Utilize commits semânticos** seguindo as convenções padrão
-- Mensagens de commit claras e descritivas
-
-### 🚀 Deploy
-1. **Repositório GitHub**
-   - Suba o projeto no seu repositório pessoal do GitHub
-
-2. **Hospedagem**
-   - Faça o deploy da aplicação na **Vercel**
-   - Inclua o link do deploy no README do repositório
-
-## 📤 Processo de Entrega
-
-Ao finalizar o desafio, envie um email para **Claudiosilva.one@gmail.com** com as seguintes informações:
-
-- **Nome completo**
-- **Link do repositório GitHub**
-- **Link do deploy na Vercel**
-
-**Assunto do email:** Desafio Frontend Junior - [Seu Nome]
-
-## Observações Importantes
-
-- O desafio deve ser implementado seguindo as melhores práticas de desenvolvimento
-- Código limpo e organizado será valorizado
-- Atenção aos detalhes de UX e design
-- Responsividade é um diferencial
-- Siga fielmente o design proposto no Figma
+Este desafio faz parte do processo seletivo voluntário da **Frontend Fusion** e avalia habilidades fundamentais em desenvolvimento frontend com React e Next.js.
 
 ---
 
-**Boa sorte!** 🚀
+## 🎨 Design Reference
+**Link do Figma:**  
+[https://www.figma.com/design/JO0vsAS75zlc0Vrx0tA5WZ/Untitled?node-id=0-1&t=8UDm9Y2PkOhwYS6a-1](https://www.figma.com/design/JO0vsAS75zlc0Vrx0tA5WZ/Untitled?node-id=0-1&t=8UDm9Y2PkOhwYS6a-1)
+
+Utilize o design do Figma como referência principal para implementação.
+
+---
+
+## 🚀 Descrição do Desafio
+
+### **Card de Perfil Interativo**
+Criar um componente de card de perfil que exibe informações de um voluntário da comunidade.
+
+---
+
+## ✅ Requisitos do Desafio
+
+### **Funcionalidades Obrigatórias:**
+- [ ] **Componente ProfileCard** reutilizável
+- [ ] **Exibição de dados:** foto, nome, cargo, bio resumida
+- [ ] **Botão "Seguir" interativo:**
+  - Texto muda para "Seguindo" ao clicar
+  - Alteração visual de cor/estilo
+  - Estado mantido durante a sessão
+- [ ] **Botão "Mensagem"** (pode ser estático)
+- [ ] **Layout responsivo** (mobile + desktop)
+
+### **Tecnologias Requeridas:**
+- [ ] Next.js 14+ (App Router)
+- [ ] React com hooks
+- [ ] Tailwind CSS para estilização
+- [ ] Componente Image do Next.js para otimização
+
+---
+
+## 🌟 Itens de Diferencial
+- [ ] Animações suaves em hover/interações
+- [ ] Acessibilidade (ARIA labels, focus states)
+- [ ] Testes unitários básicos
+- [ ] Deploy funcionando na Vercel
+
+---
+
+## 📚 Material de Apoio
+
+### **Documentação Oficial:**
+- **[Next.js Documentation](https://nextjs.org/docs)**
+- **[Tailwind CSS Docs](https://tailwindcss.com/docs)**
+- **[React Hooks Reference](https://react.dev/reference/react)**
+
+### **Ferramentas:**
+- **Vercel Deploy:** [https://vercel.com](https://vercel.com)
+- **GitHub:** [https://github.com](https://github.com)
+
+---
+
+## 📤 Processo de Entrega
+
+### **1. Repositório GitHub**
+- Crie um repositório público
+- Use commits semânticos
+- Inclua README com instruções de setup
+
+### **2. Deploy na Vercel**
+- Faça deploy e teste a aplicação
+
+### **3. Envio Final**
+Envie email para **Claudiosilva.one@gmail.com** com:
+
+**Assunto:** `Desafio Frontend Junior - [Seu Nome]`
+
+**Corpo do email:**
+```
+Nome completo: [Seu Nome]
+Link do GitHub: [link do repositório] 
+Link do Deploy: [link da Vercel]
+```
+
+---
+
+**Boa sorte!** 🚀✨
+
+*Contribuindo para transformar vidas através da tecnologia!*
