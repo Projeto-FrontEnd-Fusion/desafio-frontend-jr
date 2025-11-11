@@ -87,6 +87,7 @@ Nome completo: [Seu Nome]
 Link do GitHub: [link do repositório] 
 Link do Deploy: [link da Vercel]
 ```
+E preencha o Link de Envio dos desafios: https://forms.gle/Rpj82v33CoB8tRea8
 
 ---
 
